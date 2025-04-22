@@ -4,7 +4,7 @@
 void mycat(const char *filename) {
   FILE *fp = fopen(filename, "r");
   if (fp == NULL) {
-    perror("Failed to open file.");
+    perror("Failed to open file");
     return;
   }
 
