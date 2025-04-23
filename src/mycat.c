@@ -1,5 +1,5 @@
 #include "mycat.h"
-#include <_stdio.h>
+#include <stdio.h>
 
 void mycat(const char *filename) {
   FILE *fp = fopen(filename, "r");
